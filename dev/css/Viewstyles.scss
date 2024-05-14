@@ -1,0 +1,178 @@
+.container, .container-opciones {
+    width: 80%;
+    margin: 20px auto; /* Esto centrará horizontalmente y agregará un margen arriba y abajo */
+}
+
+.container {
+    width: 310px;
+    height: 650px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.container-opciones {
+    width: 310px;
+    height: 650px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.header1 {
+    flex-direction: column;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtLqYIK90ZpgIuY3HfkX9yHPxXJkZu8xzWYSjc2pMC5Q&s);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    min-height: auto;
+    padding: 15px 0;
+}
+
+.header-content1 {
+    background-color: rgba(26, 28, 28, 0.5);
+    /* Fondo semitransparente para mejorar la legibilidad del texto */
+    padding: 15px 30px;
+    /* Espacio de relleno dentro del contenedor de contenido */
+    color: #ffffff;
+}
+
+.problems-items1 {
+    text-align: left;
+}
+
+.header2 {
+    flex-direction: column;
+    background-image: url(https://www.uniminuto.edu/sites/default/files/2023-06/PrimerosAuxiliosPsicologicos-TodoLoQueDebesSaber.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    min-height: auto;
+    padding: 15px 0;
+}
+
+.header-content2 {
+    background-color: rgba(26, 28, 28, 0.5);
+    /* Fondo semitransparente para mejorar la legibilidad del texto */
+    padding: 15px 15px;
+    /* Espacio de relleno dentro del contenedor de contenido */
+    color: #ffffff;
+}
+
+.problems-items2 {
+    text-align: left;
+}
+
+.header3 {
+    flex-direction: column;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7_3PGwu9h2k1LbHL3Z8g0e-PW8vAZaStiFUXxHwpcyg&s);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    min-height: auto;
+    padding: 15px 0;
+}
+
+.header-content3 {
+    background-color: rgba(26, 28, 28, 0.5);
+    /* Fondo semitransparente para mejorar la legibilidad del texto */
+    padding: 15px 30px;
+    /* Espacio de relleno dentro del contenedor de contenido */
+    color: #ffffff;
+}
+
+.problems-items3 {
+    text-align: left;
+}
+
+.header4 {
+    flex-direction: column;
+    background-image: url(https://concepto.de/wp-content/uploads/2013/08/salud-OMS-e1551914081412.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    min-height: auto;
+    padding: 15px 0;
+}
+
+.header-content4 {
+
+    background-color: rgba(26, 28, 28, 0.5);
+    /* Fondo semitransparente para mejorar la legibilidad del texto */
+    padding: 15px 30px;
+    /* Espacio de relleno dentro del contenedor de contenido */
+    color: #ffffff;
+
+    img {
+        max-width: 100%; /* Ajustar el ancho máximo de la imagen al contenedor */
+        height: 90px; /* Mantener la proporción de aspecto */
+         border-radius: 5px;
+         margin-bottom: 10px;
+     }
+    
+}
+
+.pasos-items {
+    text-align: left;
+}
+
+
+
+.boton {
+    display: inline-block;
+    padding: 10px 5px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    width: 295px;
+    /* Hacemos que el botón ocupe todo el ancho del contenedor */
+    background-color: #bababa;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-home {
+    display: block; /* Convertimos el botón en un elemento de bloque */
+    width: 30px; 
+    box-sizing: border-box; /* Incluimos el padding y el borde en el ancho total */
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding-left: 4px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #bababa;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: left; /* Alineamos el texto a la izquierda */
+    margin-bottom: 10px; /* Espacio entre el botón y el contenido */
+    position: relative; /* Establecemos la posición relativa */
+    z-index: 1; /* Definimos el índice Z para que esté por encima del contenido */
+}
+
+.button-container {
+    margin-bottom: 10px; /* Espacio entre el botón y el contenido */
+}
+
+.boton:hover {
+    background-color: #8d9494;
+    color: #000000;
+}
+
+/* Cambiar el tamaño del ícono */
+a i {
+    font-size: 20px;
+}
+
+/* Cambiar el color del ícono */
+a i {
+    color: rgb(9, 8, 8);
+}

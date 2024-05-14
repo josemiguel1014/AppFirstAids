@@ -1,0 +1,85 @@
+.container {
+  width: 310px;
+  height: 650px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  overflow: auto;
+  }
+  .title-section {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.menu-icon {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+  .content-wrap {
+    position: relative;
+  }
+  
+  .content-wrap h2 {
+    margin-top: 4;
+    margin-left: 25px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  
+  li.checklist-item {
+    background-color: rgba(220, 220, 230, 0.8);
+    border: 1px solid #000;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  
+  }
+  
+  li label {
+    margin-left: 15px;
+  }
+  
+  .evaluate-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    /*Borde*/
+    padding: 15px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .help-button {
+    background-color: #007bff;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://www.freepik.es/icono/linea_9694578#fromView=search&p age=1&position=2&uuid=cbdb5c14-c730-434b-8b16-cb3357b9cd81");
+  }

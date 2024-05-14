@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["dev/css/main.scss"],"sourcesContent":[":root{\r\n    --main-color:var(--main-color)\r\n}\r\n\r\nbody{\r\n    background-color: aquamarine;\r\n}"],"names":[],"version":3,"file":"index.0c1cd621.css.map","sourceRoot":"/__parcel_source_root/"}
